@@ -9,7 +9,10 @@ import io.smallrye.mutiny.subscription.MultiEmitter;
 import jakarta.enterprise.context.ApplicationScoped;
 
 /**
- * TODO: Complete Javadoc
+ * Diffuseur d'événements produits pour le streaming en temps réel.
+ * <p>
+ * Permet de diffuser les événements produits à plusieurs abonnés via Mutiny Multi.
+ * </p>
  */
 
 @ApplicationScoped

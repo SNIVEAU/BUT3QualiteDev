@@ -22,7 +22,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * TODO: Complete Javadoc
+ * Entité JPA représentant la vue matérialisée d'un produit.
+ * <p>
+ * Stocke les informations projetées du produit pour la lecture rapide (catalogues, événements, etc).
+ * </p>
  */
 
 @Getter

@@ -1,3 +1,4 @@
+
 package org.ormi.priv.tfa.orderflow.store.infra.rest.client;
 
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
@@ -14,7 +15,8 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 
 /**
- * TODO: Complete Javadoc
+ * interface Cliente REST pour le service de registre des produits.
+ * Contient les opérations pour enregistrer retirer et mettre à jour les produits.
  */
 
 @ApplicationScoped

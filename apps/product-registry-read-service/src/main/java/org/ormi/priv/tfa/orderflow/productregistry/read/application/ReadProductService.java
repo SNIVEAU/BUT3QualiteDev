@@ -14,7 +14,10 @@ import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
 /**
- * TODO: Complete Javadoc
+ * Service applicatif pour la lecture des produits.
+ * <p>
+ * Permet de rechercher, de retrouver et de streamer les vues produits à partir du repository.
+ * </p>
  */
 
 @ApplicationScoped

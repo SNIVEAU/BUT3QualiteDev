@@ -18,7 +18,10 @@ import jakarta.resource.spi.IllegalStateException;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Service de dispatch des projections d'événements sur les vues produits.
+ * <p>
+ * Utilise le projecteur pour appliquer les événements et met à jour la vue matérialisée, en gérant les cas d'échec et de diffusion.
+ * </p>
  */
 
 @ApplicationScoped

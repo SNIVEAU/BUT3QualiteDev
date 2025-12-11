@@ -5,7 +5,11 @@ import io.quarkus.runtime.QuarkusApplication;
 import io.quarkus.runtime.annotations.QuarkusMain;
 
 /**
- * TODO: Complete Javadoc
+ * Point d'entrée principal du service Store Back.
+ * <p>
+ * Cette classe démarre l'application Quarkus en utilisant la classe interne
+ * {@link ProductRegistryDomainApplication} qui attend la terminaison du processus.
+ * </p>
  */
 
 @QuarkusMain
@@ -18,6 +22,12 @@ public class Main {
             args);
     }
 
+    /**
+     * Application Quarkus pour le domaine du registre produit.
+     * <p>
+     * Attend la terminaison du processus Quarkus.
+     * </p>
+     */
     public static class ProductRegistryDomainApplication implements QuarkusApplication {
 
         @Override

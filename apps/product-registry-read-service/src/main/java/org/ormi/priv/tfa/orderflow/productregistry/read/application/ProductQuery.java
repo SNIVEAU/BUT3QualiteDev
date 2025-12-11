@@ -3,7 +3,10 @@ package org.ormi.priv.tfa.orderflow.productregistry.read.application;
 import org.ormi.priv.tfa.orderflow.kernel.product.ProductId;
 
 /**
- * TODO: Complete Javadoc
+ * Interface scellée représentant les requêtes de lecture sur les produits.
+ * <p>
+ * Permet de définir différents types de requêtes pour obtenir ou lister les produits.
+ * </p>
  */
 
 public sealed interface ProductQuery {

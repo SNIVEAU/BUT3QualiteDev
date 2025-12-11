@@ -15,7 +15,10 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Service applicatif pour la mise à la retraite d'un produit.
+ * <p>
+ * Gère la logique métier pour retirer un produit, enregistrer l'événement et publier dans l'outbox.
+ * </p>
  */
 @ApplicationScoped
 public class RetireProductService {

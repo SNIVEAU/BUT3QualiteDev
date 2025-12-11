@@ -3,7 +3,10 @@ package org.ormi.priv.tfa.orderflow.productregistry.read.infra.api;
 import jakarta.ws.rs.Path;
 
 /**
- * TODO: Complete Javadoc
+ * Ressource REST pour le streaming des événements produits.
+ * <p>
+ * Permet d'exposer des endpoints pour streamer les événements liés aux produits (exercice 5).
+ * </p>
  */
 
 @Path("/products")

@@ -22,7 +22,11 @@ import org.ormi.priv.tfa.orderflow.kernel.product.views.ProductView.ProductViewE
 import jakarta.enterprise.context.ApplicationScoped;
 
 /**
- * TODO: Complete Javadoc
+ * Projecteur de vue produit pour la projection des événements métier sur la vue matérialisée.
+ * <p>
+ * Implémente l'interface {@link Projector} pour appliquer les événements du domaine produit
+ * et construire ou mettre à jour la vue {@link ProductView}.
+ * </p>
  */
 @ApplicationScoped
 public class ProductViewProjector implements Projector<ProductView, ProductEventV1Envelope<?>> {

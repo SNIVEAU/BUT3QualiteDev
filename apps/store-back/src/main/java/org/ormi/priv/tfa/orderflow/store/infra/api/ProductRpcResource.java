@@ -28,7 +28,11 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response.Status;
 
 /**
- * TODO: Complete Javadoc
+ * Ressource RPC exposant les opérations sur les produits pour le front de gestion du magasin.
+ * <p>
+ * Permet d'enregistrer, de mettre à jour, de retirer et de rechercher des produits via des appels REST.
+ * Utilise les services de registre de produits pour déléguer la logique métier.
+ * </p>
  */
 
 @Path("/products")

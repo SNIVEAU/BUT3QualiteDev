@@ -33,7 +33,10 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Poller partitionné pour la gestion de l'outbox des événements produits.
+ * <p>
+ * Permet de récupérer et de publier les événements en attente dans l'outbox en utilisant plusieurs partitions pour la performance.
+ * </p>
  */
 
 @ApplicationScoped

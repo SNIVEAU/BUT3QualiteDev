@@ -8,7 +8,10 @@ import org.ormi.priv.tfa.orderflow.contracts.productregistry.v1.write.RegisterPr
 import org.ormi.priv.tfa.orderflow.kernel.product.SkuIdMapper;
 
 /**
- * TODO: Complete Javadoc
+ * Mapper MapStruct pour convertir entre les DTO de commande et les objets métier du registre produit.
+ * <p>
+ * Facilite la transformation entre {@link RegisterProductCommandDto} et {@link RegisterProductCommand}.
+ * </p>
  */
 
 @Mapper(

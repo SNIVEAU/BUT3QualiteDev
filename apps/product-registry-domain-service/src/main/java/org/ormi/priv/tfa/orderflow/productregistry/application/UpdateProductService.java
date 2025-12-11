@@ -17,7 +17,10 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 
 /**
- * TODO: Complete Javadoc
+ * Service applicatif pour la mise à jour des informations d'un produit.
+ * <p>
+ * Permet de modifier le nom ou la description d'un produit, d'enregistrer les événements et de publier dans l'outbox.
+ * </p>
  */
 
 @ApplicationScoped

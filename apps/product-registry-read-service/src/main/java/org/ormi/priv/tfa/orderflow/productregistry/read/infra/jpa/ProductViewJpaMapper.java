@@ -20,7 +20,10 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * TODO: Complete Javadoc
+ * Mapper MapStruct pour la conversion entre l'entité JPA ProductViewEntity et la vue métier ProductView.
+ * <p>
+ * Gère la sérialisation et la désérialisation des événements et catalogues associés à la vue produit.
+ * </p>
  */
 
 @Mapper(

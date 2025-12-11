@@ -28,7 +28,10 @@ import org.ormi.priv.tfa.orderflow.kernel.product.views.ProductView.ProductViewC
 import org.ormi.priv.tfa.orderflow.kernel.product.views.ProductView.ProductViewEvent;
 
 /**
- * TODO: Complete Javadoc
+ * Mapper MapStruct pour convertir entre la vue produit métier et ses DTO REST.
+ * <p>
+ * Facilite la transformation entre {@link ProductView} et {@link ProductViewDto} ainsi que leurs sous-éléments.
+ * </p>
  */
 
 @Mapper(componentModel = "cdi", builder = @Builder(disableBuilder = false), uses = {

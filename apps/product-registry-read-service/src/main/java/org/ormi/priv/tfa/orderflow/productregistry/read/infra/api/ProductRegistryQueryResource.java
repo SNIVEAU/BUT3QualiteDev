@@ -22,7 +22,10 @@ import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 
 /**
- * TODO: Complete Javadoc
+ * Ressource REST pour la consultation des produits du registre.
+ * <p>
+ * Permet de rechercher, filtrer et obtenir les détails des produits via des endpoints REST.
+ * </p>
  */
 
 @Path("/products")
