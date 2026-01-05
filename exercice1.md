@@ -1,6 +1,6 @@
 ## Quels sont les principaux domaines métiers de l'application Order flow ?
 
-L'application à deux domaine s métiers principaux qui sont le Panier d'achat et le Traitement des commandes.
+L'application à deux domaines métiers principaux qui sont le panier d'achat et le traitement des commandes.
 
 ## Comment les services sont-ils conçus pour implémenter les domaines métiers ?
 
