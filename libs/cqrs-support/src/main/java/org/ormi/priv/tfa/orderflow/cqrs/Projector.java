@@ -6,7 +6,7 @@ import java.util.stream.StreamSupport;
 
 /**
  * Projector interface for projecting events onto a state.
- * 
+ *  @param <S> Le type de l'état projeté généralement un objet métier ou une vue
  * @author Thibaud FAURIE
  */
 public interface Projector<S, E extends EventEnvelope<? extends DomainEvent>> {
